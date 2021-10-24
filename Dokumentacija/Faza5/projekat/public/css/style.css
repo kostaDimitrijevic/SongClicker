@@ -1,0 +1,392 @@
+body {
+    background-image: url("../images/SongClickerBackGround.png");
+}
+
+div.header {
+    background-color: rgba(251, 151, 57, 0.95);
+    height: 180px;
+    margin-top: 100px;
+    border-top: black solid 5px;
+    border-left: black solid 5px;
+    border-right: black solid 5px;
+}
+
+div.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+div.token-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+div.center {
+    text-align: center;
+    background-color: rgba(251, 151, 57, 0.95);
+    border-left: black solid 5px;
+    border-right: black solid 5px;
+}
+
+div.footer {
+    background-color: rgba(251, 151, 57, 0.95);
+    height: 200px;
+    border-left: black solid 5px;
+    border-right: black solid 5px;
+    border-bottom: black solid 5px;
+}
+
+div.teamLogo {
+    text-align: left;
+    border-right: none;
+}
+
+div.teamLogo img {
+    height : 60%;
+    margin-top: 95px;
+    margin-left: -10px;
+}
+
+div.optional {
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.userWelcome {
+    font-size: large;
+    border-left: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 2%;
+}
+
+img.logo {
+    height: 120%;
+    margin-top: -20px;
+}
+
+img.logoForGame {
+    width: 180%;
+    height: 100%;
+    position: relative;
+    left: -80px;
+    top: 20px;
+}
+
+table.registerForm, table.loginForm, table.userInterfaceForm, table.tableQuit {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+table.modMenu td {
+    border: none;
+}
+
+table.modMenu input {
+    width: 50%;
+}
+
+.loginFooter, .registerFooter {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+input.btnRegister {
+    margin-top: 10px;
+    width: 50%;
+}
+
+input.btnTransition {
+    transition: width 500ms, background-color 500ms;
+}
+
+input.btnTransition:hover:enabled {
+    width: 80%;
+    background-color: #721817;
+}
+
+.tableAdminMenu {
+    text-align: center;
+   margin-top: 50px;
+}
+
+.btnMenu {
+    width:50%;
+}
+
+.genres-table , .yourGenresTable{
+    text-align: center;
+}
+
+.table .borderless {
+    border:none;
+}
+
+.dropdown .dropdown-menu {
+    text-align: center;
+    margin-left:-50px;
+    width:20px;
+}
+
+@keyframes choosePicture {
+    from { margin-top:0px }
+    to { margin-top: 100px }
+}
+
+@keyframes unchoosePicture {
+    from { margin-top: 100px }
+    to { margin-top: 0px }
+}
+
+.chosen {
+    animation-name: choosePicture;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+.unchosen {
+    animation-name: unchoosePicture;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+table.userInterfaceForm td {
+    border: none;
+}
+
+table.userInterfaceForm input, table.tableQuit input {
+    width: 50%;
+}
+
+div.userWelcome {
+    font-size: large;
+    border-left: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 2%;
+}
+
+div.scroll {
+    width : 400px;
+    height : 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    border: solid black 3px;
+    background-color: gray;
+}
+
+
+table.center {
+    text-align: center;
+}
+
+.formWidth {
+    width: 150px;
+    background-color: #5e5e5e;
+
+}
+
+.ok {
+    width:20%;
+}
+
+.red {
+    color:red;
+}
+
+.genreChoices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.borderTransition {
+    transition: border-left-width 200ms,
+            border-bottom-width 200ms,
+            border-top-width 200ms,
+            border-right-width 200ms;
+}
+
+@keyframes borderAppearing {
+    from {
+        border-width: 0;
+    }
+    to {
+        border-width: 5px;
+    }
+}
+
+@keyframes borderDisappearing {
+    from {
+        border-width: 5px;
+    }
+    to {
+        border-width: 0;
+    }
+}
+
+.selectedGenre {
+    animation-name: borderAppearing;
+    animation-duration: 200ms;
+    animation-fill-mode: forwards;
+    border-left: 5px solid #9c1616;
+    border-right: 5px solid #303333;
+    border-top: 5px solid #303333;
+    border-bottom: 5px solid #9c1616;
+}
+
+.deselectedGenre {
+    animation-name: borderDisappearing;
+    animation-duration: 200ms;
+    animation-fill-mode: forwards;
+    border-left: 5px solid #9c1616;
+    border-right: 5px solid #303333;
+    border-top: 5px solid #303333;
+    border-bottom: 5px solid #9c1616;
+}
+
+div.imagesForGame {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img.genreImageForGame {
+    width: 10%;
+    height: 10%;
+    transition: opacity 5s;
+}
+
+.hiddenGenreImageForGame {
+    opacity: 0;
+}
+
+
+.listOfSongs, .infoPart {
+    text-align: center;
+    padding-top: 40px;
+}
+.myAnswerParent::before {
+    content: attr(time-before);
+    white-space: pre;
+}
+
+.myAnswerParent::after {
+    content: attr(time-after);
+    white-space: pre;
+}
+
+.opponentAnswerParent::before {
+    content: attr(time-before);
+    white-space: pre;
+}
+
+.opponentAnswerParent::after {
+    content: attr(time-after);
+    white-space: pre;
+}
+
+
+#results {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#toUnlock {
+    margin-top: -13px;
+}
+
+.numberOfGuesses, .buttonsConfirm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@keyframes textApearing {
+    from { font-size: 0 }
+    to { font-size: 20px }
+}
+
+#myName, #opponentName {
+    animation-name: textApearing;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes imageAppearing {
+    from {
+        width: 0;
+        height: 0;
+    }
+    to {
+        width: 100px;
+        height: 100px;
+        transform: rotateZ(1080deg);
+    }
+}
+
+#winnerImage {
+    width: 0;
+    height: 0;
+    animation-name: imageAppearing;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+@keyframes appearingFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+#myPoints, #opponentPoints {
+    opacity: 0;
+    animation-name: appearingFromLeft;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+#myTokens, #opponentTokens {
+    opacity: 0;
+    animation-name: appearingFromLeft;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+}
+
+#back,#toSongList {
+    opacity: 0;
+    animation-name: appearingFromLeft;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+}

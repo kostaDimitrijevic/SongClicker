@@ -1,0 +1,249 @@
+******* Register moderator success *******
+
+Running 'RegisterModerator success'
+18:20:25
+1.
+open on http://localhost:8080/Administrator OK
+18:20:25
+2.
+setWindowSize on 1936x1056 OK
+18:20:25
+3.
+click on id=registerMod OK
+18:20:25
+4.
+click on id=moderatorUsername OK
+18:20:28
+5.
+type on id=moderatorUsername with value moderator1 OK
+18:20:29
+6.
+click on id=moderatorPassword OK
+18:20:30
+7.
+type on id=moderatorPassword with value 12345 OK
+18:20:31
+8.
+click on id=confirm OK
+18:20:32
+9.
+click on css=.borderless OK
+18:20:33
+10.
+verifyText on css=.borderless with value You added new moderator successfully OK
+18:20:34
+'RegisterModerator success' completed successfully
+18:20:34
+
+
+******* Register moderator user already exists *******
+
+Running 'RegisterModerator user already exists'
+18:21:25
+1.
+open on http://localhost:8080/Administrator OK
+18:21:25
+2.
+setWindowSize on 1936x1056 OK
+18:21:25
+3.
+click on id=registerMod OK
+18:21:25
+4.
+Trying to find id=moderatorUsername... OK
+18:21:27
+5.
+type on id=moderatorUsername with value moder1 OK
+18:21:28
+6.
+click on id=moderatorPassword OK
+18:21:28
+7.
+type on id=moderatorPassword with value 12345 OK
+18:21:28
+8.
+click on id=confirm OK
+18:21:28
+9.
+mouseOver on id=confirm OK
+18:21:28
+10.
+mouseOut on id=confirm OK
+18:21:28
+11.
+click on css=.borderless OK
+18:21:29
+12.
+assertText on css=.borderless with value User with that username already exists OK
+18:21:29
+'RegisterModerator user already exists' completed successfully
+18:21:29
+
+******* Register moderator username short *******
+
+Running 'RegisterModerator username short'
+18:21:52
+1.
+open on http://localhost:8080/Administrator OK
+18:21:53
+2.
+setWindowSize on 1936x1056 OK
+18:21:53
+3.
+click on id=registerMod OK
+18:21:53
+4.
+Trying to find id=moderatorUsername... OK
+18:21:55
+5.
+type on id=moderatorUsername with value mod OK
+18:21:55
+6.
+click on id=moderatorPassword OK
+18:21:55
+7.
+type on id=moderatorPassword with value 12345 OK
+18:21:55
+8.
+click on id=confirm OK
+18:21:56
+9.
+mouseOver on id=confirm OK
+18:21:56
+10.
+mouseOut on id=confirm OK
+18:21:56
+11.
+click on css=.borderless OK
+18:21:56
+12.
+assertText on css=.borderless with value Username needs to contain at least 5 characters OK
+18:21:56
+'RegisterModerator username short' completed successfully
+18:21:56
+
+
+*********** Register moderator username required **********
+
+Running 'RegisterModerator username required'
+18:23:22
+1.
+open on http://localhost:8080/Administrator OK
+18:23:22
+2.
+setWindowSize on 1936x1056 OK
+18:23:22
+3.
+click on id=registerMod OK
+18:23:22
+4.
+Trying to find id=moderatorUsername... OK
+18:23:24
+5.
+click on id=moderatorPassword OK
+18:23:24
+6.
+type on id=moderatorPassword with value 12345 OK
+18:23:24
+7.
+click on id=confirm OK
+18:23:25
+8.
+mouseOver on id=confirm OK
+18:23:25
+9.
+mouseOut on id=confirm OK
+18:23:25
+10.
+click on css=.borderless OK
+18:23:25
+11.
+assertText on css=.borderless with value Please enter username OK
+18:23:25
+'RegisterModerator username required' completed successfully
+18:23:25
+
+****** Register moderator password required *******
+
+Running 'RegisterModerator password required'
+18:27:13
+1.
+open on http://localhost:8080/Administrator OK
+18:27:15
+2.
+setWindowSize on 1936x1056 OK
+18:27:15
+3.
+click on id=registerMod OK
+18:27:15
+4.
+click on id=moderatorUsername OK
+18:27:17
+5.
+type on id=moderatorUsername with value moderator2 OK
+18:27:18
+6.
+click on id=confirm OK
+18:27:19
+7.
+mouseOver on id=confirm OK
+18:27:20
+8.
+mouseOut on id=confirm OK
+18:27:21
+9.
+click on css=.borderless OK
+18:27:22
+10.
+assertText on css=.borderless with value Please enter password OK
+18:27:23
+'RegisterModerator password required' completed successfully
+18:27:24
+
+********** Register moderator passwor short ***********
+
+Running 'RegisterModerator password short'
+18:28:05
+1.
+open on http://localhost:8080/Administrator OK
+18:28:06
+2.
+setWindowSize on 1936x1056 OK
+18:28:06
+3.
+click on id=registerMod OK
+18:28:06
+4.
+click on id=moderatorUsername OK
+18:28:08
+5.
+type on id=moderatorUsername with value moder OK
+18:28:09
+6.
+click on id=moderatorPassword OK
+18:28:10
+7.
+type on id=moderatorPassword with value 1234 OK
+18:28:11
+8.
+click on id=confirm OK
+18:28:12
+9.
+click on css=.row:nth-child(2) OK
+18:28:13
+10.
+click on css=.borderless OK
+18:28:14
+11.
+click on css=.borderless OK
+18:28:15
+12.
+click on css=.borderless OK
+18:28:16
+13.
+assertText on css=.borderless with value Password needs to contain at least 5 characters OK
+18:28:17
+'RegisterModerator password short' completed successfully
+18:28:18
+
+

@@ -1,0 +1,10 @@
+@keyframes buttonDisappear {
+    from { opacity: 1 }
+    to { opacity: 0 }
+}
+
+.btnDisappear {
+    animation-name: buttonDisappear;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}

@@ -1,0 +1,80 @@
+******* Mistake log song info obtained *******
+
+Running 'MistakeLog song info obtained'
+18:29:21
+1.
+open on http://localhost:8080/Administrator OK
+18:29:22
+2.
+setWindowSize on 1936x1056 OK
+18:29:22
+3.
+click on id=mistakeLog OK
+18:29:22
+4.
+Trying to find id=ids... OK
+18:29:24
+5.
+type on id=ids with value 29 OK
+18:29:24
+6.
+assertValue on id=info with value Get song info OK
+18:29:24
+7.
+click on id=info OK
+18:29:24
+8.
+Trying to find id=playAudio... OK
+18:29:24
+9.
+click on id=stopAudio OK
+18:29:25
+'MistakeLog song info obtained' completed successfully
+18:29:25
+
+********** Mistake log return to menu ***********
+
+Running 'MistakeLog return to menu'
+18:30:00
+1.
+open on http://localhost:8080/Administrator OK
+18:30:01
+2.
+setWindowSize on 1936x1056 OK
+18:30:01
+3.
+click on id=mistakeLog OK
+18:30:01
+4.
+Trying to find id=backToMenu... OK
+18:30:03
+5.
+click on id=backToMenu OK
+18:30:03
+'MistakeLog return to menu' completed successfully
+18:30:03
+
+******** Mistake log mistake deleted *********
+
+Running 'MistakeLog mistake deleted'
+18:31:18
+1.
+open on http://localhost:8080/Administrator OK
+18:31:19
+2.
+setWindowSize on 1936x1056 OK
+18:31:19
+3.
+click on id=mistakeLog OK
+18:31:19
+4.
+Trying to find id=29... OK
+18:31:21
+5.
+Trying to find id=mistake... OK
+18:31:21
+6.
+assertText on id=mistake with value You successfully deleted logged mistake! OK
+18:31:22
+'MistakeLog mistake deleted' completed successfully
+18:31:22

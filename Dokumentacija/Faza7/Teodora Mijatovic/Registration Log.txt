@@ -1,0 +1,320 @@
+********* Registration success ************
+
+Running 'Registration success'
+18:08:32
+1.
+open on http://localhost:8080/Register OK
+18:08:33
+2.
+setWindowSize on 1936x1056 OK
+18:08:33
+3.
+click on id=username OK
+18:08:33
+4.
+type on id=username with value kosta OK
+18:08:35
+5.
+click on css=.logo OK
+18:08:36
+6.
+click on id=password OK
+18:08:37
+7.
+type on id=password with value 12345 OK
+18:08:38
+8.
+click on id=confirmPass OK
+18:08:39
+9.
+type on id=confirmPass with value 12345 OK
+18:08:40
+10.
+click on name=submit OK
+18:08:41
+11.
+click on id=rap OK
+18:08:42
+12.
+click on id=rock OK
+18:08:44
+13.
+assertValue on id=confirmGenres with value Choose OK
+18:08:45
+14.
+click on id=confirmGenres OK
+
+****** Registration username required ******
+
+Running 'Registration username required'
+18:10:28
+1.
+open on http://localhost:8080/Register OK
+18:10:28
+2.
+setWindowSize on 1920x1040 OK
+18:10:28
+3.
+click on id=password OK
+18:10:29
+4.
+type on id=password with value 12345 OK
+18:10:32
+5.
+click on id=confirmPass OK
+18:10:33
+6.
+type on id=confirmPass with value 12345 OK
+18:10:34
+7.
+click on name=submit OK
+18:10:35
+8.
+click on css=.table tr:nth-child(1) > td OK
+18:10:36
+9.
+assertText on css=.table tr:nth-child(1) > td with value The username field is required. OK
+18:10:38
+'Registration username required' completed successfully
+
+******** Registration password required *********
+
+Running 'Registration password required'
+18:11:32
+1.
+open on http://localhost:8080/Register OK
+18:11:32
+2.
+setWindowSize on 1920x1040 OK
+18:11:32
+3.
+click on id=username OK
+18:11:32
+4.
+type on id=username with value kosta OK
+18:11:34
+5.
+click on css=.table tr:nth-child(2) > td:nth-child(1) OK
+18:11:34
+6.
+click on id=confirmPass OK
+18:11:34
+7.
+type on id=confirmPass with value 12345 OK
+18:11:34
+8.
+click on name=submit OK
+18:11:34
+9.
+click on css=.table tr:nth-child(1) > td OK
+18:11:34
+10.
+assertText on css=.table tr:nth-child(1) > td with value The password field is required. OK
+18:11:36
+'Registration password required' completed successfully
+
+
+********* Registration confirm password required **********
+
+Running 'Registration confirm password required'
+18:12:16
+1.
+open on http://localhost:8080/Register OK
+18:12:16
+2.
+setWindowSize on 1920x1040 OK
+18:12:16
+3.
+type on id=username with value kosta OK
+18:12:17
+4.
+click on css=.table tr:nth-child(1) > td OK
+18:12:18
+5.
+click on id=password OK
+18:12:18
+6.
+type on id=password with value 12345 OK
+18:12:18
+7.
+click on name=submit OK
+18:12:18
+8.
+click on css=.table tr:nth-child(1) > td OK
+18:12:19
+9.
+verifyText on css=.table tr:nth-child(1) > td with value The confirmPass field is required. OK
+18:12:20
+'Registration confirm password required' completed successfully
+
+
+******** Registration user already exists *********
+
+Running 'Registration user already exists'
+18:13:05
+1.
+open on http://localhost:8080/Register OK
+18:13:05
+2.
+setWindowSize on 1936x1056 OK
+18:13:05
+3.
+click on id=username OK
+18:13:06
+4.
+type on id=username with value mladen123 OK
+18:13:08
+5.
+click on id=password OK
+18:13:08
+6.
+type on id=password with value 12345 OK
+18:13:09
+7.
+click on id=confirmPass OK
+18:13:09
+8.
+type on id=confirmPass with value 12345 OK
+18:13:09
+9.
+click on name=submit OK
+18:13:09
+10.
+click on css=.table tr:nth-child(1) > td OK
+18:13:09
+11.
+assertText on css=.table tr:nth-child(1) > td with value User already exists. OK
+18:13:11
+'Registration user already exists' completed successfully
+
+******* Registration username short *********
+
+Running 'Registration username short'
+18:14:16
+1.
+open on http://localhost:8080/Register OK
+18:14:16
+2.
+setWindowSize on 1936x1056 OK
+18:14:16
+3.
+click on id=username OK
+18:14:16
+4.
+type on id=username with value kost OK
+18:14:18
+5.
+click on css=.table tr:nth-child(1) > td OK
+18:14:18
+6.
+click on id=password OK
+18:14:18
+7.
+type on id=password with value 12345 OK
+18:14:18
+8.
+click on id=confirmPass OK
+18:14:19
+9.
+type on id=confirmPass with value 12345 OK
+18:14:19
+10.
+click on name=submit OK
+18:14:19
+11.
+click on css=.table tr:nth-child(1) > td OK
+18:14:19
+12.
+assertText on css=.table tr:nth-child(1) > td with value The username field must be at least 5 characters in length. OK
+18:14:21
+'Registration username short' completed successfully
+
+********** Registration password short **********
+
+Running 'Registration password short'
+18:15:03
+1.
+open on http://localhost:8080/Register OK
+18:15:03
+2.
+setWindowSize on 1936x1056 OK
+18:15:03
+3.
+click on id=username OK
+18:15:03
+4.
+type on id=username with value kosta OK
+18:15:05
+5.
+click on css=.logo OK
+18:15:05
+6.
+click on id=password OK
+18:15:05
+7.
+type on id=password with value 1234 OK
+18:15:06
+8.
+click on id=confirmPass OK
+18:15:06
+9.
+type on id=confirmPass with value 1234 OK
+18:15:06
+10.
+click on name=submit OK
+18:15:06
+11.
+click on css=.table tr:nth-child(1) > td OK
+18:15:06
+12.
+verifyText on css=.table tr:nth-child(1) > td with value The password field must be at least 5 characters in length. OK
+18:15:08
+13.
+close OK
+18:15:08
+'Registration password short' completed successfully
+
+******* Registration confirm password *********
+
+Running 'Registration confirm password fail'
+18:17:08
+1.
+open on http://localhost:8080/Register OK
+18:17:09
+2.
+setWindowSize on 1920x1040 OK
+18:17:09
+3.
+click on id=username OK
+18:17:09
+4.
+type on id=username with value kosta OK
+18:17:11
+5.
+click on css=.center OK
+18:17:12
+6.
+click on id=password OK
+18:17:12
+7.
+type on id=password with value 12345 OK
+18:17:12
+8.
+click on id=confirmPass OK
+18:17:12
+9.
+type on id=confirmPass with value 12344 OK
+18:17:12
+10.
+click on name=submit OK
+18:17:12
+11.
+click on css=.table tr:nth-child(1) > td OK
+18:17:12
+12.
+assertText on css=.table tr:nth-child(1) > td with value The confirmPass field does not match the password field. OK
+18:17:14
+'Registration confirm password fail' completed successfully
+
+
+

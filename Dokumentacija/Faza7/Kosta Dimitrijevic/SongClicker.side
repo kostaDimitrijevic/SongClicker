@@ -1,0 +1,611 @@
+{
+  "id": "e5626353-a2f1-4568-9fc9-e9b18108f624",
+  "version": "2.0",
+  "name": "SongClicker",
+  "url": "localhost:8080/User",
+  "tests": [{
+    "id": "02e20b34-8530-423d-9669-5aea26d44a80",
+    "name": "PlaylistUnlockSuccess",
+    "commands": [{
+      "id": "0a849412-c159-4394-bf26-631fe5ffd06f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/User",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96e65f23-5a3e-40f0-8c73-dc0c71fcf77b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f01711da-351e-4463-ad15-636b381760aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=playlists",
+      "targets": [
+        ["id=playlists", "id"],
+        ["css=#playlists", "css:finder"],
+        ["xpath=//input[@id='playlists']", "xpath:attributes"],
+        ["xpath=//div[@id='insertable']/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a401e423-8044-4ab7-944f-2ff6d51dee12",
+      "comment": "",
+      "command": "click",
+      "target": "id=0",
+      "targets": [
+        ["id=0", "id"],
+        ["css=#\\30", "css:finder"],
+        ["xpath=//img[@id='0']", "xpath:attributes"],
+        ["xpath=//td/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "521384f8-66e8-489e-9464-a2cfd7375b88",
+      "comment": "",
+      "command": "click",
+      "target": "id=show",
+      "targets": [
+        ["id=show", "id"],
+        ["css=#show", "css:finder"],
+        ["xpath=//input[@id='show']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89e9f46b-3b63-484b-9d98-72779bdbcbbf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=return",
+      "targets": [
+        ["id=return", "id"],
+        ["css=#return", "css:finder"],
+        ["xpath=//input[@id='return']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "086ba448-b0eb-4126-a9b3-5d3ee06dacdb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=return",
+      "targets": [
+        ["id=return", "id"],
+        ["css=#return", "css:finder"],
+        ["xpath=//input[@id='return']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b159081b-3c3a-4c2b-a1fd-e63fd4b906d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=34",
+      "targets": [
+        ["id=34", "id"],
+        ["css=#\\33 4", "css:finder"],
+        ["xpath=//img[@id='34']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c3e45f0-2f3e-4520-94ec-d18916a194ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=yes",
+      "targets": [
+        ["id=yes", "id"],
+        ["css=#yes", "css:finder"],
+        ["xpath=//input[@id='yes']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d6063cd-82ea-4f84-a3f6-ede571d25b67",
+      "comment": "",
+      "command": "click",
+      "target": "id=head",
+      "targets": [
+        ["id=head", "id"],
+        ["css=#head", "css:finder"],
+        ["xpath=//h3[@id='head']", "xpath:attributes"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'You have successfully unlocked the playlist!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "323dc001-98d7-418e-bf48-452845f05cad",
+      "comment": "",
+      "command": "click",
+      "target": "id=head",
+      "targets": [
+        ["id=head", "id"],
+        ["css=#head", "css:finder"],
+        ["xpath=//h3[@id='head']", "xpath:attributes"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'You have successfully unlocked the playlist!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8978e369-0e0b-46c4-938c-3a75ba2f50d1",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=head",
+      "targets": [
+        ["id=head", "id"],
+        ["css=#head", "css:finder"],
+        ["xpath=//h3[@id='head']", "xpath:attributes"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'You have successfully unlocked the playlist!')]", "xpath:innerText"]
+      ],
+      "value": "You have successfully unlocked the playlist!"
+    }, {
+      "id": "1543bb8b-a081-46bb-b869-3faaff4124c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=ok",
+      "targets": [
+        ["id=ok", "id"],
+        ["css=#ok", "css:finder"],
+        ["xpath=//input[@id='ok']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bff41c66-8fcd-46c5-b94c-74623181c271",
+      "comment": "",
+      "command": "click",
+      "target": "id=return",
+      "targets": [
+        ["id=return", "id"],
+        ["css=#return", "css:finder"],
+        ["xpath=//input[@id='return']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "126e2c2e-30a2-4722-a318-8a33a13e8314",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=return",
+      "targets": [
+        ["id=return", "id"],
+        ["css=#return", "css:finder"],
+        ["xpath=//input[@id='return']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6192171-823e-4767-b5e5-154994044a7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=return",
+      "targets": [
+        ["id=return", "id"],
+        ["css=#return", "css:finder"],
+        ["xpath=//input[@id='return']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "309a93e2-4dc4-4ed0-951a-97a852cc89f0",
+    "name": "PlaylistUnlockBackToMenu",
+    "commands": [{
+      "id": "bd071f0c-1dd7-46ef-b8a3-62d39a53e110",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/User",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "203772ee-e8fb-40e3-999f-989fc06b05b7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "477b9b23-91d9-4bc5-8a1a-3ee83589ee5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=playlists",
+      "targets": [
+        ["id=playlists", "id"],
+        ["css=#playlists", "css:finder"],
+        ["xpath=//input[@id='playlists']", "xpath:attributes"],
+        ["xpath=//div[@id='insertable']/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fffb2b1e-4148-462f-a685-0a0d3fc7162e",
+      "comment": "",
+      "command": "click",
+      "target": "id=0",
+      "targets": [
+        ["id=0", "id"],
+        ["css=#\\30", "css:finder"],
+        ["xpath=//img[@id='0']", "xpath:attributes"],
+        ["xpath=//td/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5fab5b7-658d-493a-aae0-28c7183e7da2",
+      "comment": "",
+      "command": "click",
+      "target": "id=show",
+      "targets": [
+        ["id=show", "id"],
+        ["css=#show", "css:finder"],
+        ["xpath=//input[@id='show']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0031aad0-04ce-4b7d-b94b-4a6d7cdc4c01",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=return",
+      "targets": [
+        ["id=return", "id"],
+        ["css=#return", "css:finder"],
+        ["xpath=//input[@id='return']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00de008f-9dd4-43a7-b9ce-b531f9fad824",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=return",
+      "targets": [
+        ["id=return", "id"],
+        ["css=#return", "css:finder"],
+        ["xpath=//input[@id='return']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab59cb51-cf00-4488-8f54-8887cb7eea7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=head",
+      "targets": [
+        ["id=head", "id"],
+        ["css=#head", "css:finder"],
+        ["xpath=//h3[@id='head']", "xpath:attributes"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Available playlists in metal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eb55222-140f-445d-b2b9-a1c3703469fe",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=head",
+      "targets": [
+        ["id=head", "id"],
+        ["css=#head", "css:finder"],
+        ["xpath=//h3[@id='head']", "xpath:attributes"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Available playlists in metal')]", "xpath:innerText"]
+      ],
+      "value": "Available playlists in metal"
+    }, {
+      "id": "c3bb4382-7563-4161-a6a7-900e24b9afe6",
+      "comment": "",
+      "command": "click",
+      "target": "id=return",
+      "targets": [
+        ["id=return", "id"],
+        ["css=#return", "css:finder"],
+        ["xpath=//input[@id='return']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "745877a0-4814-43a8-adde-66e6be08bbdb",
+      "comment": "",
+      "command": "click",
+      "target": "id=return",
+      "targets": [
+        ["id=return", "id"],
+        ["css=#return", "css:finder"],
+        ["xpath=//input[@id='return']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "675f2c0a-23b6-4491-9fdb-1b9279898908",
+    "name": "PlaylistUnlockNotEnoughTokens",
+    "commands": [{
+      "id": "aad1da61-5515-46e1-99e1-c932790af854",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/User",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7d926b0-836e-4150-a275-a95122dac930",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3b48557-0e85-4084-8de6-8506117f8fd8",
+      "comment": "",
+      "command": "click",
+      "target": "id=playlists",
+      "targets": [
+        ["id=playlists", "id"],
+        ["css=#playlists", "css:finder"],
+        ["xpath=//input[@id='playlists']", "xpath:attributes"],
+        ["xpath=//div[@id='insertable']/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db8ddf80-072e-494b-bdd2-6d25fefdf301",
+      "comment": "",
+      "command": "click",
+      "target": "id=0",
+      "targets": [
+        ["id=0", "id"],
+        ["css=#\\30", "css:finder"],
+        ["xpath=//img[@id='0']", "xpath:attributes"],
+        ["xpath=//td/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03431b51-d2c8-4bc0-a880-77b9db679b98",
+      "comment": "",
+      "command": "click",
+      "target": "id=show",
+      "targets": [
+        ["id=show", "id"],
+        ["css=#show", "css:finder"],
+        ["xpath=//input[@id='show']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9843cc5-d9f6-428f-a776-43ea31ca78bf",
+      "comment": "",
+      "command": "click",
+      "target": "id=35",
+      "targets": [
+        ["id=35", "id"],
+        ["css=#\\33 5", "css:finder"],
+        ["xpath=//img[@id='35']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad66239d-8d07-4fc8-8b0e-840421fb909c",
+      "comment": "",
+      "command": "click",
+      "target": "id=head",
+      "targets": [
+        ["id=head", "id"],
+        ["css=#head", "css:finder"],
+        ["xpath=//h3[@id='head']", "xpath:attributes"],
+        ["xpath=//h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c7e9b56-a576-49ce-896f-78904b168cc7",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=head",
+      "targets": [
+        ["id=head", "id"],
+        ["css=#head", "css:finder"],
+        ["xpath=//h3[@id='head']", "xpath:attributes"],
+        ["xpath=//h3", "xpath:position"]
+      ],
+      "value": "You don't have enough money to buy the playlist!"
+    }, {
+      "id": "8edd85ab-1c03-43ee-a5d8-d3b5ddfaa6d1",
+      "comment": "",
+      "command": "click",
+      "target": "id=ok",
+      "targets": [
+        ["id=ok", "id"],
+        ["css=#ok", "css:finder"],
+        ["xpath=//input[@id='ok']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77321165-0592-4118-8d25-1f4c27b8e5b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=return",
+      "targets": [
+        ["id=return", "id"],
+        ["css=#return", "css:finder"],
+        ["xpath=//input[@id='return']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cfea35c-fc24-47a6-b3b1-776d474791ee",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=return",
+      "targets": [
+        ["id=return", "id"],
+        ["css=#return", "css:finder"],
+        ["xpath=//input[@id='return']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a478126-60a2-4228-b84d-fe0cccb6c5b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=return",
+      "targets": [
+        ["id=return", "id"],
+        ["css=#return", "css:finder"],
+        ["xpath=//input[@id='return']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "14377b10-b2f4-4388-9fe7-d90e2bf1361a",
+    "name": "PlaylistUnlockGivinigUp",
+    "commands": [{
+      "id": "17c74448-da93-43b6-aa76-3cb29edbe676",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/User",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b927eff3-26d5-4324-b33d-001d59b1be59",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23e7d07a-4806-4552-a20a-6ebed27ba110",
+      "comment": "",
+      "command": "click",
+      "target": "id=playlists",
+      "targets": [
+        ["id=playlists", "id"],
+        ["css=#playlists", "css:finder"],
+        ["xpath=//input[@id='playlists']", "xpath:attributes"],
+        ["xpath=//div[@id='insertable']/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b87c8848-09bd-41f9-b7ac-580bf88e49cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=0",
+      "targets": [
+        ["id=0", "id"],
+        ["css=#\\30", "css:finder"],
+        ["xpath=//img[@id='0']", "xpath:attributes"],
+        ["xpath=//td/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e38d408-ce61-45a2-921e-ceb0bc494df0",
+      "comment": "",
+      "command": "click",
+      "target": "id=show",
+      "targets": [
+        ["id=show", "id"],
+        ["css=#show", "css:finder"],
+        ["xpath=//input[@id='show']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b54a692c-cebb-47f5-992f-9a49f9070133",
+      "comment": "",
+      "command": "click",
+      "target": "id=35",
+      "targets": [
+        ["id=35", "id"],
+        ["css=#\\33 5", "css:finder"],
+        ["xpath=//img[@id='35']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a473d367-25de-4ecd-aadf-64f9af68e90c",
+      "comment": "",
+      "command": "click",
+      "target": "id=head",
+      "targets": [
+        ["id=head", "id"],
+        ["css=#head", "css:finder"],
+        ["xpath=//h3[@id='head']", "xpath:attributes"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Are you sure you want to buy playlist Metal Easy 3?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2649c47-e29e-4285-ba4b-21f7629f7391",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=head",
+      "targets": [
+        ["id=head", "id"],
+        ["css=#head", "css:finder"],
+        ["xpath=//h3[@id='head']", "xpath:attributes"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Are you sure you want to buy playlist Metal Easy 3?')]", "xpath:innerText"]
+      ],
+      "value": "Are you sure you want to buy playlist Metal Easy 3?"
+    }, {
+      "id": "d770f5d1-42d0-4612-a6e3-9e6841346aea",
+      "comment": "",
+      "command": "click",
+      "target": "id=no",
+      "targets": [
+        ["id=no", "id"],
+        ["css=#no", "css:finder"],
+        ["xpath=//input[@id='no']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c691289-dee9-4fb5-b235-745fd3f57223",
+      "comment": "",
+      "command": "click",
+      "target": "id=return",
+      "targets": [
+        ["id=return", "id"],
+        ["css=#return", "css:finder"],
+        ["xpath=//input[@id='return']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df5df5bd-31c7-4ebb-8c67-a4d1a5e5fa01",
+      "comment": "",
+      "command": "click",
+      "target": "id=return",
+      "targets": [
+        ["id=return", "id"],
+        ["css=#return", "css:finder"],
+        ["xpath=//input[@id='return']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d239d8fe-fd94-46ca-a0da-286ab6c01fe7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["02e20b34-8530-423d-9669-5aea26d44a80"]
+  }, {
+    "id": "a60abd02-23dd-4380-8c01-733e161f31cf",
+    "name": "UnlockNewPlaylists",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["02e20b34-8530-423d-9669-5aea26d44a80", "309a93e2-4dc4-4ed0-951a-97a852cc89f0", "14377b10-b2f4-4388-9fe7-d90e2bf1361a", "675f2c0a-23b6-4491-9fdb-1b9279898908"]
+  }],
+  "urls": ["localhost:8080/User"],
+  "plugins": []
+}

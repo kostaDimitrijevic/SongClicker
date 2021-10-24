@@ -1,1 +1,1 @@
-# SongClicker
+# MangoGames

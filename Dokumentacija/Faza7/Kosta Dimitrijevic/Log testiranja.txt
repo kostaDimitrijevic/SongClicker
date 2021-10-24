@@ -1,0 +1,55 @@
+- PlaylistUnlockBackToMenu
+
+Running 'PlaylistUnlockBackToMenu'
+17:59:43
+1.
+open on http://localhost:8080/User OK
+17:59:44
+2.
+setWindowSize on 1920x1040 OK
+17:59:44
+3.
+click on id=playlists OK
+17:59:44
+4.
+Trying to find name=username... Failed:
+17:59:45
+Playback aborted
+'PlaylistUnlockBackToMenu' was aborted
+18:00:00
+Running 'PlaylistUnlockBackToMenu'
+18:03:06
+1.
+open on http://localhost:8080/User OK
+18:03:06
+2.
+setWindowSize on 1920x1040 OK
+18:03:06
+3.
+click on id=playlists OK
+18:03:06
+4.
+click on id=0 OK
+18:03:08
+5.
+click on id=show OK
+18:03:09
+6.
+mouseOver on id=return OK
+18:03:10
+7.
+mouseOut on id=return OK
+18:03:11
+8.
+click on id=head OK
+18:03:12
+9.
+assertText on id=head with value Available playlists in metal OK
+18:03:13
+10.
+click on id=return OK
+18:03:14
+11.
+click on id=return OK
+18:03:14
+'PlaylistUnlockBackToMenu' completed successfully
